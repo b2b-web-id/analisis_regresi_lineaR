@@ -1,0 +1,24 @@
+# Pemilihan Model Terbaik
+
+```{r bestmodel}
+reg <- lm(mpg ~ disp+hp+drat+wt+qsec+am+gear, data=mtcars)
+summary(reg)
+```
+
+## Metode All Possible Regression
+
+```{r bestmodel_allpossible}
+olsrr::ols_step_all_possible(reg)
+```
+
+## Metode Forward Selection
+
+```{r bestmodel_forward}
+olsrr::ols_step_forward_p(reg)
+```
+
+## Metode Backward Selection
+
+```{r bestmodel_backward}
+olsrr::ols_step_backward_p(reg)
+```

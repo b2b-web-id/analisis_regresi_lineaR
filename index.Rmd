@@ -1,0 +1,53 @@
+--- 
+title: "Seri Analisis: Regresi Linear[^glm1989]"
+author: "Yudha H Tejaningrat"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Analisis Regresi Linear merupakan suatu uji untuk mengetahui hubungan antara satu variabel respon (Y), dengan satu atau lebih variabel prediktor (X).
+link-citations: yes
+github-repo: b2b-web-id/analisis-regresi-linier
+---
+
+# Pendahuluan
+
+Ini merupakan buku pertama dari kelompok Seri Analisis, kumpulan buku yang akan kami buat untuk mendukung dan berkontribusi dalam dunia analisis data utamanya menggunakan Bahasa R. Sebagian besar buku akan ditulis menggunakan RStudio dengan paket __bookdown__[^lamanbookdown].
+
+## Bookdown
+
+Paket __bookdown__ dibangun di atas R Markdown[^lamanrmarkdown], dan mewarisi kesederhanaan sintaks Markdown[^wikimarkdown], serta memungkinkan menghasilkan berbagai jenis format keluaran buku elektronik (PDF/HTML/Word/dll). Karena menghasilkan buku terdapat juga fitur seperti multi-halaman, penomoran dan referensi silang gambar/tabel/bagian/persamaan, dan adanya bagian/lampiran selain itu juga dapat menggunakan tema GitBook[^lamangitbook] untuk membuat desain yang elegan dan halaman buku yang menarik.
+
+## Regresi Linear
+
+Regresi Linear merupakan algoritma pemodelan klasik yang masih sering digunakan karena sangat mumpuni dan mudah dijelaskan hasil pemodelannya. Algoritma ini sendiri merupakan teorema dasar dari bidang statistika yang menjadi cikal bakal berbagai kelompok bidang antara lain: machine-learning[^samuel1959], data mining[^britanicadatamining] dan big data[^hellersteinGigaom2008] serta business inteligence[^luhn1958].
+
+Analisis Regresi Linear merupakan suatu uji untuk mengetahui hubungan antara satu variabel respon (Y), dengan satu atau lebih variabel prediktor (X). Dikatakan linier karena terdapat satu atau lebih variabel bebas/independen yang mempengaruhi variabel tak bebas/dependen.
+
+Variabel respon merupakan variabel yang nilai-nilainya ditentukan berdasarkan nilai-nilai dari satu atau lebih peubah/variabel penjelas. Variabel prediktor merupakan variabel yang nilai-nilainya dapat ditentukan, diatur, atau diamati.
+
+Analisis regresi memiliki sifat penduga BLUE yang merupakan singkatan dari Best Linear Unbiased Estimator. Kriteria ini pertama kali dikenalkan oleh Gauss-Markov[^wikigaussmarkov]. BLUE hanya berlaku apabila menggunakan metode estimasi Metode kuadrat terkecil (MKT) atau Orninary Least Square (OLS).
+
+## Library
+
+```{r pustaka}
+library(dplyr)
+library(tseries)
+library(lmtest)
+library(car)
+library(olsrr)
+```
+
+[^glm1989]: McCullagh, P.; Nelder, J. A. (1989), "An outline of generalized linear models", Generalized Linear Models, Springer US, pp. 21–47, doi:10.1007/978-1-4899-3242-6_2, ISBN 9780412317606
+[^wikigaussmarkov]: [Laman wiki Gauss-Markov theorem, https://en.wikipedia.org/wiki/Gauss-Markov_theorem](https://en.wikipedia.org/wiki/Gauss-Markov_theorem)
+[^lamanbookdown]: [Laman Bookdown, https://bookdown.org/](https://bookdown.org/)
+[^lamanrmarkdown]: [Laman R Markdown, https://rmarkdown.rstudio.com](https://rmarkdown.rstudio.com)
+[^wikimarkdown]: [Laman wiki Markdown, https://en.wikipedia.org/wiki/Markdown](https://en.wikipedia.org/wiki/Markdown)
+[^lamangitbook]: [Laman GitBook, (https://www.gitbook.com)](https://www.gitbook.com)
+[^samuel1959]: Samuel, A. L. (1959). Some Studies in Machine Learning Using the Game of Checkers. IBM Journal of Research and Development, 3(3), 210–229. doi:10.1147/rd.33.0210 
+[^britanicadatamining]: [Clifton, Christopher (2010). "Encyclopædia Britannica: Definition of Data Mining"](https://www.britannica.com/EBchecked/topic/1056150/data-mining), [Archived from the original on 2011-02-05. Retrieved 2010-12-09](https://web.archive.org/web/20110205121520/http://www.britannica.com/EBchecked/topic/1056150/data-mining).
+[^hellersteinGigaom2008]: Hellerstein, Joe (9 November 2008). "Parallel Programming in the Age of Big Data". Gigaom Blog. [Archived from the original on 7 October 2012. Retrieved 21 April 2010](https://web.archive.org/web/20121007033928/http://gigaom.com/2008/11/09/mapreduce-leads-the-way-for-parallel-programming/).
+[^luhn1958]: Luhn, H. P. (1958). "A Business Intelligence System" (PDF). IBM Journal of Research and Development. 2 (4): 314–319. doi:10.1147/rd.24.0314.

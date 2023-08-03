@@ -1,0 +1,26 @@
+# Sample Data
+
+Motor Trend Car Road Tests, data diambil dari majalah Motor Trend US tahun 1974. Data terdiri dari 32 tipe mobil dengan 10 aspek yang menjadi variabel.
+
+```{r mtcars}
+str(mtcars)
+```
+
+## Eksplorasi Data
+
+```{r explorasi_summary}
+summary(mtcars)
+```
+
+```{r explorasi_head}
+head(mtcars)
+```
+
+## Transformasi Data
+
+```{r transformasi_data}
+mtcars = mtcars %>%
+  mutate(cyl=as.factor(cyl), vs=as.factor(vs), am=as.factor(am),
+         gear=as.factor(gear), carb=as.factor(carb))
+```
+

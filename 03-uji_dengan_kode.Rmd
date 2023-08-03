@@ -1,0 +1,48 @@
+# Analisis dengan R
+
+```{r analisis_r}
+reg <- lm(mpg ~ cyl + disp, data=mtcars)
+summary(reg)
+```
+
+## Uji Normalitas
+
+### Kode R
+
+```{r analisis_normalitas}
+shapiro.test(residuals(reg))
+```
+
+### Hipotesis
+
+- $H_0$: Sampel berasal dari populasi berdistribusi normal
+- $H_1$: Sampel tidak berasal dari populasi berdistribusi normal
+- $\alpha = 0.05$
+- Statistik Uji: $W = 0.94475, p-value = 0.1022$
+
+#### Keputusan
+
+Karena $p-value (0.5713) > \alpha (0.05)$, maka gagal tolak $H_0$.
+
+#### Interpretasi
+
+Dapat disimpulkan bahwa sampel berasal dari populasi yang berdistribusi normal.
+
+## Uji Homoskedastisitas
+
+```{r analisis_homoskedastisitas}
+lmtest::bptest(reg)
+```
+
+## Uji Autokorelasi
+
+```{r analisis_autokorelasi}
+lmtest::dwtest(reg)
+```
+
+## Uji Multikolinearitas
+
+```{r analisis_multikolinearitas}
+car::vif(reg)
+```
+

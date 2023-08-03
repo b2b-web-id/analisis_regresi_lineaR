@@ -1,0 +1,1868 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2023.7.26)  3 AUG 2023 10:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**_main.tex
+(./_main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/base
+/book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen141
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count190
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count191
+\leftroot@=\count192
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count193
+\DOTSCASE@=\count194
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count195
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count196
+\dotsspace@=\muskip16
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks17
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks18
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/
+share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-01-16 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
+\g__graphics_track_int=\count268
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count269
+\g__pdf_backend_annotation_int=\count270
+\g__pdf_backend_link_int=\count271
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-01-16 L3 Experimental document command parser
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count272
+\l__fontspec_language_int=\count273
+\l__fontspec_strnum_int=\count274
+\l__fontspec_tmp_int=\count275
+\l__fontspec_tmpa_int=\count276
+\l__fontspec_tmpb_int=\count277
+\l__fontspec_tmpc_int=\count278
+\l__fontspec_em_int=\count279
+\l__fontspec_emdef_int=\count280
+\l__fontspec_strong_int=\count281
+\l__fontspec_strongdef_int=\count282
+\l__fontspec_tmpa_dim=\dimen150
+\l__fontspec_tmpb_dim=\dimen151
+\l__fontspec_tmpc_dim=\dimen152
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share
+/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count283
+\g__um_fonts_used_int=\count284
+\l__um_primecount_int=\count285
+\g__um_primekern_muskip=\muskip17
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+)
+\MT@toks=\toks22
+\MT@tempbox=\box54
+\MT@count=\count287
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen153
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+\MT@listname@count=\count288
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2022/06/23 v3.0f Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 236.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count289
+\FV@InFile=\read2
+\FV@TabBox=\box55
+\c@FancyVerbLine=\count290
+\FV@StepNumber=\count291
+\FV@OutFile=\write3
+) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen154
+\fb@frh=\dimen155
+\FrameRule=\dimen156
+\FrameSep=\dimen157
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count292
+\LTcapwidth=\dimen158
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count293
+\LT@rows=\count294
+\c@LT@tables=\count295
+\c@LT@chunks=\count296
+\LT@p@ftn=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count297
+\@cmidlb=\count298
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count299
+\@lastruleclass=\count300
+\@thisrulewidth=\dimen171
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box61
+\extrarowheight=\dimen173
+\NC@list=\toks24
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box62
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count301
+\calc@Bcount=\count302
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count303
+\calc@Cskip=\skip62
+) (/usr/share/texlive/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
+\FNH@notes=\box63
+\FNH@width=\dimen176
+\FNH@toks=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count304
+\U@D=\dimen179
+\l@unhyphenated=\language30
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count305
+(/usr/share/texlive/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
+ystem
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/id/babel-indonesian.tex
+Package babel Info: Importing font and identification data for indonesian
+(babel)             from babel-id.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip63
+\bibsep=\skip64
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count306
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count307
+)
+\@linkdim=\dimen180
+\Hy@linkcounter=\count308
+\Hy@pagecounter=\count309
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count310
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count311
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen181
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count312
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count313
+\c@Item=\count314
+\c@Hfootnote=\count315
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2022-11-13 v7.00u Hyperref driver for XeTeX
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box64
+\c@Hy@AnnotLevel=\count316
+\HyField@AnnotCount=\count317
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+) (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip65
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count320
+)) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+) (./_main.aux)
+\openout1 = `_main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 127.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 127.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9999964596882403]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999964596882403]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 127.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 127.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 127.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 127.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
+(fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
+(fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
+(fontspec)             \fontdimen 13\font =3.63pt\relax \fontdimen 14\font
+(fontspec)             =3.63pt\relax \fontdimen 15\font =2.89pt\relax
+(fontspec)             \fontdimen 16\font =2.47pt\relax \fontdimen 17\font
+(fontspec)             =2.47pt\relax \fontdimen 18\font =2.5pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.000096459334209]"[latinmodern-math.otf]/OT:sc
+ript=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;+ssty=0;"<-6>s*[1.000096459334209]"[latinmodern-math
+.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000096459334209]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 127.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 127.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
+(fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
+(fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9998964600422715]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9998964600422715]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+27.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 127
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 127.
+LaTeX Info: Redefining \microtypecontext on input line 127.
+Package microtype Info: Applying patch `item' on input line 127.
+Package microtype Info: Applying patch `toc' on input line 127.
+Package microtype Info: Applying patch `eqnum' on input line 127.
+Package microtype Info: Applying patch `footnote' on input line 127.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package hyperref Info: Link coloring OFF on input line 127.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 129.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+29.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 17.28157pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.0011pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 17.27815pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 129.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 129
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 129
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00073pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00082pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 129.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 129.
+[1
+
+
+] [2
+
+] (./_main.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 3.
+)
+\tf@toc=\write4
+\openout4 = `_main.toc'.
+
+[3] [4
+
+]
+Bab 1.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[][][][]\TU/lmr/m/n/8 Laman wiki Gauss-Markov theorem, https://en.wikipedia.org
+/wiki/Gauss-
+ []
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 160.
+[6] [7] [8
+
+]
+Bab 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+\TU/lmr/m/n/10 Uji Normalitas (Shapiro-Wilk[^shapiro1965], Liliefors[^lilliefor
+s1967],
+ []
+
+[9] [10]
+Bab 3.
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 361--361
+[]\TU/lmtt/m/n/10 ##  $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.
+2 ...[] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 361--361
+[]\TU/lmtt/m/n/10 ##  $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3
+.92 ...[] 
+ []
+
+[11
+
+]
+Overfull \hbox (1.5pt too wide) in paragraph at lines 394--394
+[]\TU/lmtt/m/n/10 ##  Min.   :2.760   Min.   :1.513   Min.   :14.50   Min.   :0
+.0000[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 394--394
+[]\TU/lmtt/m/n/10 ##  1st Qu.:3.080   1st Qu.:2.581   1st Qu.:16.89   1st Qu.:0
+.0000[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 394--394
+[]\TU/lmtt/m/n/10 ##  Median :3.695   Median :3.325   Median :17.71   Median :0
+.0000[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 394--394
+[]\TU/lmtt/m/n/10 ##  Mean   :3.597   Mean   :3.217   Mean   :17.85   Mean   :0
+.4375[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 394--394
+[]\TU/lmtt/m/n/10 ##  3rd Qu.:3.920   3rd Qu.:3.610   3rd Qu.:18.90   3rd Qu.:1
+.0000[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 394--394
+[]\TU/lmtt/m/n/10 ##  Max.   :4.930   Max.   :5.424   Max.   :22.90   Max.   :1
+.0000[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 410--410
+[]\TU/lmtt/m/n/10 ##                    mpg cyl disp  hp drat    wt  qsec vs am
+ gear carb[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 410--410
+[]\TU/lmtt/m/n/10 ## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1
+    4    4[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 410--410
+[]\TU/lmtt/m/n/10 ## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1
+    4    4[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 410--410
+[]\TU/lmtt/m/n/10 ## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1
+    4    1[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 410--410
+[]\TU/lmtt/m/n/10 ## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0
+    3    1[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 410--410
+[]\TU/lmtt/m/n/10 ## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0
+    3    2[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 410--410
+[]\TU/lmtt/m/n/10 ## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0
+    3    1[] 
+ []
+
+[12]
+Bab 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[13
+
+] [14] [15] [16
+
+]
+Bab 5.
+[17]
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ##     Index N                   Predictors  R-Square Adj. R-
+Square Mallow[]s Cp[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 4       1 1                           wt 0.7528328     0.7
+445939   15.454084[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 1       2 1                         disp 0.7183433     0.7
+089548   21.517622[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 2       3 1                           hp 0.6024373     0.5
+891853   41.894876[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 3       4 1                         drat 0.4639952     0.4
+461283   66.234181[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 7       5 1                         gear 0.4291500     0.3
+897811   72.360250[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 6       6 1                           am 0.3597989     0.3
+384589   84.552758[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 5       7 1                         qsec 0.1752963     0.1
+478062  116.989879[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 15      8 2                        hp wt 0.8267855     0.8
+148396    4.452582[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 23      9 2                      wt qsec 0.8264161     0.8
+144448    4.517512[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 25     10 2                      wt gear 0.7886852     0.7
+660444   11.150920[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 17     11 2                        hp am 0.7820346     0.7
+670025   12.320154[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 10     12 2                      disp wt 0.7809306     0.7
+658223   12.514256[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 19     13 2                      drat wt 0.7608970     0.7
+444071   16.036334[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 24     14 2                        wt am 0.7528348     0.7
+357889   17.453735[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 18     15 2                      hp gear 0.7526941     0.7
+261970   17.478477[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 8      16 2                      disp hp 0.7482402     0.7
+308774   18.261504[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 14     17 2                      hp drat 0.7411716     0.7
+233214   19.504221[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 12     18 2                      disp am 0.7333314     0.7
+149405   20.882586[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 9      19 2                    disp drat 0.7310094     0.7
+124583   21.290821[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 11     20 2                    disp qsec 0.7215598     0.7
+023571   22.952134[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 13     21 2                    disp gear 0.7184738     0.6
+883103   23.494690[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 26     22 2                      qsec am 0.6868398     0.6
+652425   29.056215[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 16     23 2                      hp qsec 0.6368769     0.6
+118339   37.840115[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 20     24 2                    drat qsec 0.5921951     0.5
+640706   45.695545[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 27     25 2                    qsec gear 0.5377680     0.4
+882431   55.264293[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 22     26 2                    drat gear 0.4970726     0.4
+431876   62.418883[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 28     27 2                      am gear 0.4938024     0.4
+395670   62.993810[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 21     28 2                      drat am 0.4905716     0.4
+554386   63.561816[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 60     29 3                   wt qsec am 0.8496636     0.8
+335561    2.430418[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 49     30 3                     hp wt am 0.8398903     0.8
+227357    4.148638[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 54     31 3                 drat wt qsec 0.8370214     0.8
+195594    4.653013[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 44     32 3                   hp drat wt 0.8368791     0.8
+194018    4.678042[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 50     33 3                   hp wt gear 0.8355796     0.8
+112210    4.906494[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 48     34 3                   hp wt qsec 0.8347678     0.8
+170643    5.049224[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 61     35 3                 wt qsec gear 0.8346032     0.8
+100999    5.078161[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 30     36 3                   disp hp wt 0.8268361     0.8
+082829    6.443670[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 38     37 3                 disp wt qsec 0.8264170     0.8
+078189    6.517352[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 32     38 3                   disp hp am 0.7992061     0.7
+776925   11.301260[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 46     39 3                   hp drat am 0.7936588     0.7
+715509   12.276521[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 40     40 3                 disp wt gear 0.7935209     0.7
+629314   12.300779[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 53     41 3                   hp am gear 0.7928152     0.7
+621212   12.424833[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[18]
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 56     42 3                 drat wt gear 0.7892299     0.7
+580047   13.055169[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 62     43 3                   wt am gear 0.7887550     0.7
+574594   13.138660[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 51     44 3                   hp qsec am 0.7881437     0.7
+654448   13.246135[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 34     45 3                 disp drat wt 0.7835315     0.7
+603385   14.056989[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 47     46 3                 hp drat gear 0.7817595     0.7
+494276   14.368524[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 39     47 3                   disp wt am 0.7810427     0.7
+575830   14.494546[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 29     48 3                 disp hp drat 0.7750131     0.7
+509073   15.554605[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 33     49 3                 disp hp gear 0.7745638     0.7
+411659   15.633583[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 41     50 3                 disp qsec am 0.7681345     0.7
+432918   16.763916[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 55     51 3                   drat wt am 0.7628984     0.7
+374947   17.684463[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 31     52 3                 disp hp qsec 0.7541953     0.7
+278591   19.214546[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 52     53 3                 hp qsec gear 0.7528678     0.7
+162557   19.447925[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 45     54 3                 hp drat qsec 0.7442512     0.7
+168495   20.962801[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 43     55 3                 disp am gear 0.7439766     0.7
+060472   21.011082[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 35     56 3               disp drat qsec 0.7412673     0.7
+135459   21.487399[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 37     57 3               disp drat gear 0.7376351     0.6
+987663   22.125959[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 36     58 3                 disp drat am 0.7366568     0.7
+084414   22.297965[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 42     59 3               disp qsec gear 0.7254722     0.6
+848014   24.264305[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 57     60 3                 drat qsec am 0.7122923     0.6
+814664   26.581452[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 63     61 3                 qsec am gear 0.6884323     0.6
+422742   30.776230[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 58     62 3               drat qsec gear 0.6179542     0.5
+613549   43.166873[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 59     63 3                 drat am gear 0.5337046     0.4
+646238   57.978681[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 90     64 4                hp wt qsec am 0.8578510     0.8
+367919    2.990993[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 80     65 4              disp wt qsec am 0.8525729     0.8
+307319    3.918929[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 94     66 4              drat wt qsec am 0.8509065     0.8
+288186    4.211897[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 98     67 4              wt qsec am gear 0.8498278     0.8
+209485    4.401551[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 84     68 4              hp drat wt qsec 0.8453853     0.8
+224794    5.182577[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 91     69 4              hp wt qsec gear 0.8450542     0.8
+152570    5.240773[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 85     70 4                hp drat wt am 0.8428442     0.8
+195618    5.629326[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 92     71 4                hp wt am gear 0.8407347     0.8
+101067    6.000193[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 69     72 4                disp hp wt am 0.8402309     0.8
+165613    6.088767[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 86     73 4              hp drat wt gear 0.8392092     0.8
+082880    6.268373[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 81     74 4            disp wt qsec gear 0.8387527     0.8
+077436    6.348641[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 70     75 4              disp hp wt gear 0.8384024     0.8
+073259    6.410232[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 74     76 4            disp drat wt qsec 0.8383592     0.8
+144124    6.417818[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 95     77 4            drat wt qsec gear 0.8380798     0.8
+069413    6.466933[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 64     78 4              disp hp drat wt 0.8376289     0.8
+135739    6.546219[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 68     79 4              disp hp wt qsec 0.8351443     0.8
+107212    6.983030[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 89     80 4              hp drat am gear 0.8079772     0.7
+710498   11.759229[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 73     81 4              disp hp am gear 0.8061557     0.7
+688779   12.079470[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 66     82 4              disp hp drat am 0.8037011     0.7
+746198   12.511007[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 93     83 4              hp qsec am gear 0.8026092     0.7
+646494   12.702972[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 71     84 4              disp hp qsec am 0.8024232     0.7
+731525   12.735680[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 87     85 4              hp drat qsec am 0.7984469     0.7
+685871   13.434745[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 67     86 4            disp hp drat gear 0.7961462     0.7
+569436   13.839217[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 76     87 4            disp drat wt gear 0.7949242     0.7
+554865   14.054061[] 
+ []
+
+[19]
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 82     88 4              disp wt am gear 0.7945694     0.7
+550635   14.116437[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 96     89 4              drat wt am gear 0.7892600     0.7
+487331   15.049872[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 75     90 4              disp drat wt am 0.7837519     0.7
+517151   16.018252[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 88     91 4            hp drat qsec gear 0.7822697     0.7
+403985   16.278831[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 83     92 4            disp qsec am gear 0.7783954     0.7
+357792   16.959955[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 65     93 4            disp hp drat qsec 0.7766318     0.7
+435402   17.270015[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 72     94 4            disp hp qsec gear 0.7747959     0.7
+314874   17.592782[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 77     95 4            disp drat qsec am 0.7713494     0.7
+374752   18.198717[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 79     96 4            disp drat am gear 0.7547187     0.7
+075492   21.122529[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 78     97 4          disp drat qsec gear 0.7508615     0.7
+029502   21.800663[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 97     98 4            drat qsec am gear 0.7238488     0.6
+707428   26.549717[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 105    99 5           disp hp wt qsec am 0.8637377     0.8
+375334    3.956069[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 118   100 5           hp wt qsec am gear 0.8594173     0.8
+256774    4.715632[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 114   101 5           hp drat wt qsec am 0.8591190     0.8
+320265    4.768064[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 109   102 5         disp drat wt qsec am 0.8549102     0.8
+270084    5.508005[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 106   103 5         disp hp wt qsec gear 0.8538199     0.8
+187367    5.699697[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 113   104 5         disp wt qsec am gear 0.8529170     0.8
+176171    5.858435[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 119   105 5         drat wt qsec am gear 0.8525553     0.8
+171686    5.922024[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 115   106 5         hp drat wt qsec gear 0.8496145     0.8
+135220    6.439038[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 99    107 5         disp hp drat wt qsec 0.8489147     0.8
+198599    6.562066[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 100   108 5           disp hp drat wt am 0.8439962     0.8
+139954    7.426790[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 116   109 5           hp drat wt am gear 0.8437077     0.8
+061975    7.477512[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 107   110 5           disp hp wt am gear 0.8422382     0.8
+043754    7.735856[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 110   111 5       disp drat wt qsec gear 0.8413942     0.8
+033288    7.884246[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 101   112 5         disp hp drat wt gear 0.8413200     0.8
+032368    7.897291[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 117   113 5         hp drat qsec am gear 0.8203316     0.7
+772112   11.587228[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 104   114 5         disp hp drat am gear 0.8178796     0.7
+741707   12.018313[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 108   115 5         disp hp qsec am gear 0.8136040     0.7
+688689   12.769998[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 102   116 5         disp hp drat qsec am 0.8066997     0.7
+695266   13.983820[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 103   117 5       disp hp drat qsec gear 0.7964146     0.7
+475541   15.792038[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 111   118 5         disp drat wt am gear 0.7958199     0.7
+468167   15.896588[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 112   119 5       disp drat qsec am gear 0.7939424     0.7
+444886   16.226666[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 120   120 6      disp hp drat wt qsec am 0.8667078     0.8
+347177    5.433888[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 124   121 6      disp hp wt qsec am gear 0.8664356     0.8
+274793    5.481753[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 126   122 6      hp drat wt qsec am gear 0.8630943     0.8
+231634    6.069186[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 121   123 6    disp hp drat wt qsec gear 0.8571694     0.8
+155105    7.110820[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 125   124 6    disp drat wt qsec am gear 0.8550223     0.8
+127372    7.488301[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 122   125 6      disp hp drat wt am gear 0.8447927     0.7
+995240    9.286747[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 123   126 6    disp hp drat qsec am gear 0.8277018     0.7
+774482   12.291481[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 728--728
+[]\TU/lmtt/m/n/10 ## 127   127 7 disp hp drat wt qsec am gear 0.8691758     0.8
+236717    7.000000[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[20]
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ## ----------------------------------------------------------
+---------------[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ## Step    Entered     R-Square    R-Square     C(p)        A
+IC        RMSE[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ## ----------------------------------------------------------
+---------------[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ##    1    wt            0.7528      0.7446    15.4541    166
+.0294    3.0459[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ##    2    hp            0.8268      0.8148     4.4526    156
+.6523    2.5934[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ##    3    am            0.8399      0.8227     4.1486    156
+.1348    2.5375[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ##    4    qsec          0.8579      0.8368     2.9910    154
+.3274    2.4348[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ##    5    disp          0.8637      0.8375     3.9561    154
+.9740    2.4293[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 752--752
+[]\TU/lmtt/m/n/10 ## ----------------------------------------------------------
+---------------[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 774--774
+[]\TU/lmtt/m/n/10 ## ----------------------------------------------------------
+--------------[] 
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 774--774
+[]\TU/lmtt/m/n/10 ## Step    Removed     R-Square    R-Square     C(p)       AI
+C        RMSE[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 774--774
+[]\TU/lmtt/m/n/10 ## ----------------------------------------------------------
+--------------[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 774--774
+[]\TU/lmtt/m/n/10 ##    1    gear          0.8667      0.8347    5.4339    156.
+2687    2.4503[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 774--774
+[]\TU/lmtt/m/n/10 ##    2    drat          0.8637      0.8375    3.9561    154.
+9740    2.4293[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 774--774
+[]\TU/lmtt/m/n/10 ## ----------------------------------------------------------
+--------------[] 
+ []
+
+[21] [22
+
+]
+Bab 6.
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 811--811
+[]\TU/lmtt/m/n/10 ## lm(formula = mpg ~ wt + hp + am + qsec + disp + cyl, data 
+= mtcars)[] 
+ []
+
+No file _main.bbl.
+[23] (./_main.aux) ) 
+Here is how much of TeX's memory you used:
+ 20348 strings out of 478320
+ 374259 string characters out of 5838758
+ 1876991 words of memory out of 5000000
+ 40096 multiletter control sequences out of 15000+600000
+ 520700 words of font info for 102 fonts, out of 8000000 for 9000
+ 264 hyphenation exceptions out of 8191
+ 86i,8n,121p,1391b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on _main.pdf (23 pages).

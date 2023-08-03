@@ -1,0 +1,6 @@
+# Model Regresi (Final)
+
+```{r finalmodel}
+reg1 <- lm(mpg ~ wt+hp+am+qsec+disp+cyl, data=mtcars)
+summary(reg1)
+```

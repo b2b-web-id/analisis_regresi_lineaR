@@ -1,0 +1,54 @@
+# Uji Asumsi Klasik
+
+Uji Asumsi Klasik merupakan uji prasyarat yang dilakukan sebelum melakukan analisis lebih lanjut terhadap data yang telah dikumpulkan. Pengujian asumsi klasik ini ditujukan agar dapat menghasilkan model regresi yang memenuhi kriteria BLUE. Uji asumsi klasik terdiri dari 4 uji.
+
+## Uji Normalitas
+
+Uji Normalitas (Shapiro-Wilk[^shapiro1965], Liliefors[^lilliefors1967], Kolmogorov-Smirnov[^kolmogoroff1941]) dilakukan untuk mengetahui apakah residual terdistribusi normal atau tidak. Residual harus mengikuti distribusi normal untuk memenuhi asumsi dan kriteria BLUE. Penyebab residual tidak normal kemungkinan karena terdapat nilai ekstrim dalam data.
+
+### Uji Saphiro-Wilk
+
+Rumus: $T_3={1/D} [ \sum_{i=1}^k a_i (X_n+i+1 - X_i) ]^2$ 
+
+Keterangan:
+
+- D = Berdasarkan rumus di bawah
+- a = Coeffisient test Shapiro Wilk
+- $X_n-i+1$ = Angka ke $n-i+1$ pada data
+- $X_i$ = Angka ke i pada data
+
+Rumus $D=\sum_{i=1}^n{(X_i-\overline{X})^2}$
+
+Keterangan:
+
+- $X_i$ = angka ke i pada data
+- $\overline{X}$ = rata-rata X
+
+Rumus $G=b_n+c_n+ln({T_3-d_n}/{1-T_3})$
+
+Keterangan:
+
+- G = identik dengan nilai Z distribusi normal
+- $T_3$ = sesuai rumus di atas
+- $b_n$, $c_n$, $d_n$ = konversi statistik Shapiro-Wilk pendekatan distribusi normal
+
+Syarat Uji:
+
+- data berskala interval atau ratio (kuantitatif)
+- data tunggal/belum dikelompokkan pada tabel distribusi
+- data dari sampel random
+
+## Uji Homoskedastisitas
+
+Uji Homoskedastisitas (Uji Park, Uji Glejser, Uji Korelasi Rank Spearman, Breusch-Pagan Test[^breusch1979]) dilakukan untuk mengetahui apakah ragam residual tidak konstan atau heteroskedastisitas, karena ketika terjadi heteroskedastisitas OLS estimator tak bias dan konsisten, hal ini dikarenakan tidak ada variabel prediktor yang berkorelasi dengan residual. Heteroskedastisitas menyebabkan meningkatnya varians residual yang berpengaruh terhadap hasil analisis karena nilai uji F dan uji T akan membesar menyebabkan nilai signifikan kecil.
+
+Homoskedastisitas merupakan asumsi penting yang harus dipenuhi yang
+berarti bahwa varian dari error bersifat konstan[^siskaandriani2017], akan dijelaskan Uji Park Dan Uji Breusch Pagan Godfrey.
+
+## Uji autokorelasi
+
+Uji autokorelasi (durbin watson) dilakukan untuk mendeteksi adanya korelasi atau hubungan antara residual pengamatan yang satu dengan lainnya. Autokorelasi biasa terjadi pada data yang berurutan atau time series. Pada regresi apabula terjadi autokorelasi, maka dapat menggangu suatu model. Autokorelasi mengakibatkan penaksiran OLS tidak lagi memiliki varians yang minimum, meskipun koefisien taksiran regresi tetap tak bias.
+
+## Uji Multikolinearitas
+
+Uji Multikolinearitas (VIF) dilakukan untuk mendeteksi apakah terdapat korelasi yang sangat tinggi antara variabel independen. Ada beberapa tanda suatu regresi linear berganda memiliki masalah dengan miltikolinearitas, yaitu nilai R Square tinggu, tetapi hanya ada sedikit variabel independen yang signifikan atau bahkan tidak signifikan.
