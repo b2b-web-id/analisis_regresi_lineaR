@@ -10,7 +10,7 @@ bibliography: [book.bib, packages.bib]
 description: |
   Analisis Regresi Linear merupakan suatu uji untuk mengetahui hubungan antara satu variabel respon (Y), dengan satu atau lebih variabel prediktor (X).
 link-citations: yes
-github-repo: b2b-web-id/analisis-regresi-linier
+github-repo: b2b-web-id/analisis_regresi_lineaR
 ---
 
 # Pendahuluan

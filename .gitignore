@@ -40,3 +40,4 @@ vignettes/*.pdf
 # R package: bookdown caching files
 /*_files/
 _book/*
+_main.log
