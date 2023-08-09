@@ -4,31 +4,41 @@ Uji Asumsi Klasik merupakan uji prasyarat yang dilakukan sebelum melakukan anali
 
 ## Uji Normalitas
 
-Uji Normalitas (Shapiro-Wilk[^shapiro1965], Liliefors[^lilliefors1967], Kolmogorov-Smirnov[^kolmogoroff1941]) dilakukan untuk mengetahui apakah residual terdistribusi normal atau tidak. Residual harus mengikuti distribusi normal untuk memenuhi asumsi dan kriteria BLUE. Penyebab residual tidak normal kemungkinan karena terdapat nilai ekstrim dalam data.
+Uji Normalitas dilakukan untuk mengetahui apakah residual terdistribusi normal atau tidak. Residual harus mengikuti distribusi normal untuk memenuhi asumsi dan kriteria BLUE. Penyebab residual tidak normal kemungkinan karena terdapat nilai ekstrim dalam data.
 
-### Uji Saphiro-Wilk
+Terdapat beberapa metode pengujian yang biasa dirujuk, yaitu : Shapiro-Wilk[^shapiro1965], Liliefors[^lilliefors1967], dan Kolmogorov-Smirnov[^kolmogoroff1941].
 
-Rumus: $T_3={1/D} [ \sum_{i=1}^k a_i (X_n+i+1 - X_i) ]^2$ 
+### Uji Saphiro-Wilk {#ShapiroWilk}
+
+Pada rilis saat ini hanya akan dijelaskan mengenai uji Saphiro-Wilk. Rumus:  
+
+\begin{equation}\label{shapirowilk}
+T_3 = \frac{1}{D} [ \sum_{i=1}^k a_i (X_n+i+1 - X_i) ]^2
+\end{equation}
 
 Keterangan:
 
-- D = Berdasarkan rumus di bawah
-- a = Coeffisient test Shapiro Wilk
+- $D$ = Berdasarkan rumus di bawah
+- $a$ = Coeffisient test Shapiro Wilk
 - $X_n-i+1$ = Angka ke $n-i+1$ pada data
 - $X_i$ = Angka ke i pada data
 
-Rumus $D=\sum_{i=1}^n{(X_i-\overline{X})^2}$
+\begin{equation}\label{shapirowilk_d}
+D=\sum_{i=1}^n{(X_i-\overline{X})^2}
+\end{equation}
 
 Keterangan:
 
 - $X_i$ = angka ke i pada data
 - $\overline{X}$ = rata-rata X
 
-Rumus $G=b_n+c_n+ln({T_3-d_n}/{1-T_3})$
+\begin{equation}\label{shapirowilk_d}
+G=b_n+c_n+ln({T_3-d_n}/{1-T_3})
+\end{equation}
 
 Keterangan:
 
-- G = identik dengan nilai Z distribusi normal
+- $G$ = identik dengan nilai Z distribusi normal
 - $T_3$ = sesuai rumus di atas
 - $b_n$, $c_n$, $d_n$ = konversi statistik Shapiro-Wilk pendekatan distribusi normal
 
@@ -40,15 +50,61 @@ Syarat Uji:
 
 ## Uji Homoskedastisitas
 
-Uji Homoskedastisitas (Uji Park, Uji Glejser, Uji Korelasi Rank Spearman, Breusch-Pagan Test[^breusch1979]) dilakukan untuk mengetahui apakah ragam residual tidak konstan atau heteroskedastisitas, karena ketika terjadi heteroskedastisitas OLS estimator tak bias dan konsisten, hal ini dikarenakan tidak ada variabel prediktor yang berkorelasi dengan residual. Heteroskedastisitas menyebabkan meningkatnya varians residual yang berpengaruh terhadap hasil analisis karena nilai uji F dan uji T akan membesar menyebabkan nilai signifikan kecil.
+Uji Homoskedastisitas dilakukan untuk mengetahui apakah ragam residual tidak konstan atau heteroskedastisitas, karena ketika terjadi heteroskedastisitas OLS estimator tak bias dan konsisten, hal ini dikarenakan tidak ada variabel prediktor yang berkorelasi dengan residual. Heteroskedastisitas menyebabkan meningkatnya varians residual yang berpengaruh terhadap hasil analisis karena nilai uji F dan uji T akan membesar menyebabkan nilai signifikan kecil.
 
-Homoskedastisitas merupakan asumsi penting yang harus dipenuhi yang
-berarti bahwa varian dari error bersifat konstan[^siskaandriani2017], akan dijelaskan Uji Park Dan Uji Breusch Pagan Godfrey.
+Homoskedastisitas merupakan asumsi penting yang harus dipenuhi yang berarti bahwa varian dari error bersifat konstan. Terdapat beberapa pengujian yang biasa dirujuk, yaitu: Uji Park, Uji Glejser, Uji Korelasi Rank Spearman, dan Breusch-Pagan Test[^breusch1979].
+
+Pada rilis saat ini hanya akan dijelaskan mengenai uji Breusch-Pagan.
+
+### Uji Breusch-Pagan {#BreuschPagan}
+
+Uji Breusch-Pagan digunakan untuk melihat apakah data dalam model regresi memiliki pola variabilitas yang berbeda-beda. Pengujian dilakukan untuk melihat perbedaan antara nilai prediksi dari model regresi dan nilai sebenarnya dari data lebih besar atau lebih kecil pada beberapa bagian data.
+
+Misal pada model $y = \beta_0 + \beta_1 x + \upsilon$ didapatkan satu set nilai $\hat{\upsilon}$ sebagai residu/selisih/kesalahan nilai prediksi dimana nilai rata-rata adalah 0 (nol) dengan variansi $Var(\upsilon) = \sigma_t^2 = h(z'_t \alpha)$. Asumsi yang digunakan untuk menguji pola variabilitas kesalahan prediksi adalah nilai $\hat{\upsilon}$ tidak bergantung pada variabel independen $x$ dengan melakukan menggunakan model regresi tambahan dengan bentuk $\hat{\upsilon}^2 = \gamma_0 + \gamma_1 x + \epsilon$.
+
+Statistik uji yang digunakan adalah
+
+\begin{equation}\label{breuschpagan}
+F = \frac{R^2_{{\upsilon^2}/k}}{1 - R^2_{{\upsilon^2}/{n-k-1}}} \sim F_{a,(k, n-k-1)}
+\end{equation}
+
+dimana $k$ merupakan jumlah variabel independen.
+
+Hipotesis yang berlaku dalam pengujian adalah dimana nilai statistik uji $F$ > $F_{a,(k, n-k-1)}$ atau $p-value$ > $\alpha$ dengan kesimpulan:
+
+- $H_0$ diterima bila variansi residu bersifat homoskedastis, dan
+- $H_1$ bila variansi residu bersifat heterokesdastis.
+
 
 ## Uji autokorelasi
 
-Uji autokorelasi (durbin watson) dilakukan untuk mendeteksi adanya korelasi atau hubungan antara residual pengamatan yang satu dengan lainnya. Autokorelasi biasa terjadi pada data yang berurutan atau time series. Pada regresi apabula terjadi autokorelasi, maka dapat menggangu suatu model. Autokorelasi mengakibatkan penaksiran OLS tidak lagi memiliki varians yang minimum, meskipun koefisien taksiran regresi tetap tak bias.
+Uji autokorelasi dilakukan untuk mendeteksi adanya korelasi atau hubungan antara residual pengamatan yang satu dengan lainnya. Autokorelasi biasa terjadi pada data yang berurutan atau time series. Pada regresi apabula terjadi autokorelasi, maka dapat menggangu suatu model. Autokorelasi mengakibatkan penaksiran OLS tidak lagi memiliki varians yang minimum, meskipun koefisien taksiran regresi tetap tak bias.
+
+### Uji Durbin-Watson[^durbinwatson1971]
+
+Rumus dalam pengujian adalah
+
+\begin{equation}\label{durbinwatson}
+d = \frac{\sum^n_{t=2} (e_t - e_{t-1})^2}{\sum^n_{t=1} e^2_t}
+\end{equation}
+
+Hipotesis yang berlaku dalam pengujian adalah dimana nilai statistik uji $d_L > d$ dan $d_U < (4 - d)$ dimana $d_L, d_U$ diambil dari batas bawah dan batas atas pada tabel dan $d$ adalah hasil hitung dengan kesimpulan:
+
+- bila nilai $d_L > d$ maka terdapat autokorelasi positif,
+- bila nilai $d_U < d$ maka tidak terdapat autokorelasi positif,
+- bila nilai $d_L > (4 - d)$ maka terdapat autokorelasi negatif,
+- bila nilai $d_U < (4 - d)$ maka tidak terdapat autokorelasi negatif, dan
+- bila nilai $d_L < d < d_U$ atau $d_L < (4 - d) < d_U$ maka pengujian tidak dapat disimpulkan.
 
 ## Uji Multikolinearitas
 
-Uji Multikolinearitas (VIF) dilakukan untuk mendeteksi apakah terdapat korelasi yang sangat tinggi antara variabel independen. Ada beberapa tanda suatu regresi linear berganda memiliki masalah dengan miltikolinearitas, yaitu nilai R Square tinggu, tetapi hanya ada sedikit variabel independen yang signifikan atau bahkan tidak signifikan.
+Uji Multikolinearitas (VIF) dilakukan untuk mendeteksi apakah terdapat korelasi yang sangat tinggi antara variabel independen. Ada beberapa tanda suatu regresi linear berganda memiliki masalah dengan miltikolinearitas, yaitu nilai R Square tinggi, tetapi hanya ada sedikit variabel independen yang signifikan atau bahkan tidak signifikan.
+
+
+
+
+[^shapiro1965]: Shapiro, S. S., and M. B. Wilk. “An Analysis of Variance Test for Normality (Complete Samples).” Biometrika 52, no. 3/4 (1965): 591–611. https://doi.org/10.2307/2333709.
+[^lilliefors1967]: Lilliefors, Hubert W. “On the Kolmogorov-Smirnov Test for Normality with Mean and Variance Unknown.” Journal of the American Statistical Association 62, no. 318 (1967): 399–402. https://doi.org/10.2307/2283970.
+[^kolmogoroff1941]: Frank J. Massey Jr. (1951) The Kolmogorov-Smirnov Test for Goodness of Fit, Journal of the American Statistical Association, 46:253, 68-78, DOI: 10.1080/01621459.1951.10500769
+[^breusch1979]: Breusch, T. S., and A. R. Pagan. “A Simple Test for Heteroscedasticity and Random Coefficient Variation.” Econometrica 47, no. 5 (1979): 1287–94. https://doi.org/10.2307/1911963.
+[^durbinwatson1971]: Durbin, J., and G. S. Watson. “Testing for Serial Correlation in Least Squares Regression. III.” Biometrika 58, no. 1 (1971): 1–19. https://doi.org/10.2307/2334313.

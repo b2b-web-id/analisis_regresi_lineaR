@@ -6,6 +6,20 @@ Motor Trend Car Road Tests, data diambil dari majalah Motor Trend US tahun 1974.
 str(mtcars)
 ```
 
+Penjelasan singkat mengenai variabel sebagai berikut:
+
+- mpg (Miles/(US) gallon), nilai rata-rata jarak yang ditempuh dalam mil (1,60934 kilometer) untuk menghabiskan 1 galon (3,78541 liter) bensin;
+- cyl (Number of cylinders), jumlah silinder mesin;
+- disp (Displacement (cu.in.)), volume silinder total;
+- hp (Gross horsepower), ukuran tenaga kuda;
+- drat (Rear axle ratio), rasio sistem gardan;
+- wt (Weight (1000 lbs)), berat dalam 1000 pound (1 pound = 0,453592 kg);
+- qsec (1/4 mile time), waktu yang dibutuhkan mencapai 1/4 mil (drag-race);
+- vs (Engine (0 = V-shaped, 1 = straight)), jenis konstruksi mesin V atau lurus;
+- am (Transmission (0 = automatic, 1 = manual)), transmisi mesin;
+- gear (Number of forward gears), jumlah gigi; dan
+- carb (Number of carburetors), jumlah karburator.
+
 ## Eksplorasi Data
 
 ```{r explorasi_summary}
@@ -16,11 +30,15 @@ summary(mtcars)
 head(mtcars)
 ```
 
+Dari penjelasan mengenai variabel dan eksplorasi sekilas mengenai data dapat disimpulkan bahwa beberapa variabel merupakan variabel _dummy_.
+
 ## Transformasi Data
+
+Maka, setelah melihat sekilas data kita dapat melakukan transformasi menggunakan __dplyr__.
 
 ```{r transformasi_data}
 mtcars = mtcars %>%
-  mutate(cyl=as.factor(cyl), vs=as.factor(vs), am=as.factor(am),
-         gear=as.factor(gear), carb=as.factor(carb))
+  mutate(vs=as.factor(vs), am=as.factor(am))
 ```
 
+Perintah tersebut akan mengubah variabel _vs_ dan _am_ menjadi variabel kategorik.
