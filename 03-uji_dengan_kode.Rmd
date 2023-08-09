@@ -1,13 +1,23 @@
 # Analisis dengan R
 
+Untuk menguji model dengan model linear digunakan fungsi _lm_. Sebagai contoh akan digunakan model sederhana dengan 2 (dua) variabel independen, yaitu _cyl_ dan _disp_ untuk memprediksi variabel dependen _mpg_.
+
 ```{r analisis_r}
 reg <- lm(mpg ~ cyl + disp, data=mtcars)
 summary(reg)
 ```
 
+Jika ditulis dalam notasi matematika maka model matematika perintah di atas adalah $mpg = \beta_0 + \beta_1 cyl + \beta_2 disp + \epsilon$.
+
+Setelah dilakukan pemodelan, maka dapat dilakukan uji asumsi untuk menguji kelayakan model linear.
+
 ## Uji Normalitas
 
+Pada uji normalitas terdapat beberapa metode dimana pada kali ini digunakan metode [Shapiro-Wilk yang telah dijelaskan sebelumnya](#ShapiroWilk).
+
 ### Kode R
+
+Untuk menguji dengan metode Shapiro-Wilk digunakan fungsi `shapiro.test`.
 
 ```{r analisis_normalitas}
 shapiro.test(residuals(reg))
@@ -15,14 +25,16 @@ shapiro.test(residuals(reg))
 
 ### Hipotesis
 
+Dari hasil pengujian dapat disimpulkan.
+
 - $H_0$: Sampel berasal dari populasi berdistribusi normal
 - $H_1$: Sampel tidak berasal dari populasi berdistribusi normal
 - $\alpha = 0.05$
-- Statistik Uji: $W = 0.94475, p-value = 0.1022$
+- Statistik Uji: $W = 0.9419, p-value = 0.08479$
 
 #### Keputusan
 
-Karena $p-value (0.5713) > \alpha (0.05)$, maka gagal tolak $H_0$.
+Karena $p-value (0.08479) > \alpha (0.05)$, maka gagal tolak $H_0$.
 
 #### Interpretasi
 

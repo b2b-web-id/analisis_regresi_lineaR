@@ -1,5 +1,9 @@
 # Pemilihan Model Terbaik
 
+Pada bab sebelumnya kita melakukan pengujian model linear dengan menggunakan 2 (dua) variabel. Namun terdapat kemungkinan model yang kita buat masih belum mencakup variabel yang paling berpengaruh. Pada bab ini kita akan mencoba melakukan pembuatan model terbaik dengan beberapa metode pemilihan.
+
+Sebelum menjalankan metode pemilihan, dilakukan pembuatan model dengan mencakup semua variabel yang terdapat pada data.
+
 ```{r bestmodel}
 reg <- lm(mpg ~ disp+hp+drat+wt+qsec+am+gear, data=mtcars)
 summary(reg)
