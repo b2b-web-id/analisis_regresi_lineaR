@@ -25,7 +25,7 @@ Paket __bookdown__ dibangun di atas R Markdown[^lamanrmarkdown], dan mewarisi ke
 
 Regresi Linear merupakan algoritma pemodelan klasik yang masih sering digunakan karena sangat mumpuni dan mudah dijelaskan hasil pemodelannya. Algoritma ini sendiri merupakan teorema dasar dari bidang statistika yang menjadi cikal bakal berbagai kelompok bidang antara lain: machine-learning[^samuel1959], data mining[^britanicadatamining] dan big data[^hellersteinGigaom2008] serta business inteligence[^luhn1958].
 
-Analisis Regresi Linear merupakan suatu uji untuk mengetahui hubungan antara satu variabel respon (Y), dengan satu atau lebih variabel prediktor (X). Dikatakan linier karena terdapat satu atau lebih variabel bebas/independen yang mempengaruhi variabel tak bebas/dependen.
+Analisis Regresi Linear merupakan suatu uji untuk mengetahui hubungan antara satu variabel respon (Y), dengan satu atau lebih variabel prediktor (X). Dikatakan linear karena terdapat satu atau lebih variabel bebas/independen yang mempengaruhi variabel tak bebas/dependen.
 
 Variabel respon merupakan variabel yang nilai-nilainya ditentukan berdasarkan nilai-nilai dari satu atau lebih peubah/variabel penjelas. Variabel prediktor merupakan variabel yang nilai-nilainya dapat ditentukan, diatur, atau diamati.
 
