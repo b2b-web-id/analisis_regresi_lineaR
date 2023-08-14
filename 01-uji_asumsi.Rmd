@@ -88,23 +88,34 @@ Rumus dalam pengujian adalah
 d = \frac{\sum^n_{t=2} (e_t - e_{t-1})^2}{\sum^n_{t=1} e^2_t}
 \end{equation}
 
-Hipotesis yang berlaku dalam pengujian adalah dimana nilai statistik uji $d_L > d$ dan $d_U < (4 - d)$ dimana $d_L, d_U$ diambil dari batas bawah dan batas atas pada tabel dan $d$ adalah hasil hitung dengan kesimpulan:
+Hipotesis yang berlaku dalam pengujian adalah dimana nilai statistik uji $d_L > d$ dan $d_U < (4 - d)$ dimana $d_L, d_U$ diambil dari batas bawah dan batas atas pada tabel dan $d$ adalah hasil hitung dengan kriteria sebagai berikut[^sujarweni2016] :
 
-- bila nilai $d_L > d$ maka terdapat autokorelasi positif,
-- bila nilai $d_U < d$ maka tidak terdapat autokorelasi positif,
-- bila nilai $d_L > (4 - d)$ maka terdapat autokorelasi negatif,
-- bila nilai $d_U < (4 - d)$ maka tidak terdapat autokorelasi negatif, dan
-- bila nilai $d_L < d < d_U$ atau $d_L < (4 - d) < d_U$ maka pengujian tidak dapat disimpulkan.
+- jika $0 < d < d_L$, berarti ada autokorelasi positif;
+- jika $4 – d_L < d < 4$, berarti ada autokorelasi negatif;
+- jika $2 < d < 4 - d_U$ atau $d_U < d < 2$, berarti tidak ada autokorelasi positif atau negatif; dan
+- jika $dL <= d <= dU$ atau $4 - d_U ≤ d ≤ 4 - d_L$, pengujian tidak menyakinkan. Untuk itu dapat digunakan uji lain
+atau menambah data.
 
 ## Uji Multikolinearitas
 
-Uji Multikolinearitas (VIF) dilakukan untuk mendeteksi apakah terdapat korelasi yang sangat tinggi antara variabel independen. Ada beberapa tanda suatu regresi linear berganda memiliki masalah dengan miltikolinearitas, yaitu nilai R Square tinggi, tetapi hanya ada sedikit variabel independen yang signifikan atau bahkan tidak signifikan.
+Uji Multikolinearitas (VIF / _Variance Inflation Factors_) dilakukan untuk mendeteksi apakah terdapat korelasi yang sangat tinggi antara variabel independen. Ada beberapa tanda suatu regresi linear berganda memiliki masalah dengan multikolinearitas, yaitu nilai R Square tinggi, tetapi hanya ada sedikit variabel independen yang signifikan atau bahkan tidak signifikan.
 
+Rumus[^islr] yang digunakan adalah:
 
+\begin{equation}\label{durbinwatson}
+VIF(\hat{\beta}_j) = \frac{1}{1-R^2_{X_j|X_{-j}}}
+\end{equation}
 
+dimana $R^2_{X_j|X_{-j}}$ adalah $R^2$ dari regresi variabel $X_j$.
+
+Hipotesis yang berlaku pada pengujian adalah jika $R^2_{X_j|X_{-j}}$ mendekati 1 (satu) maka terdapat korelasi yang kuat atas variabel $X_j$. Semakin kuat korelasi maka angka VIF atas variabel $X_j$ juga semakin besar.
+
+Bila terdapat masalah kolinearitas solusi sederhananya adalah dengan menghapus varibel yang bermasalah atau dengan menggabungkan variabel yang saling berkorelasi kuat menjadi 1 (satu) variabel.
 
 [^shapiro1965]: Shapiro, S. S., and M. B. Wilk. “An Analysis of Variance Test for Normality (Complete Samples).” Biometrika 52, no. 3/4 (1965): 591–611. https://doi.org/10.2307/2333709.
 [^lilliefors1967]: Lilliefors, Hubert W. “On the Kolmogorov-Smirnov Test for Normality with Mean and Variance Unknown.” Journal of the American Statistical Association 62, no. 318 (1967): 399–402. https://doi.org/10.2307/2283970.
 [^kolmogoroff1941]: Frank J. Massey Jr. (1951) The Kolmogorov-Smirnov Test for Goodness of Fit, Journal of the American Statistical Association, 46:253, 68-78, DOI: 10.1080/01621459.1951.10500769
 [^breusch1979]: Breusch, T. S., and A. R. Pagan. “A Simple Test for Heteroscedasticity and Random Coefficient Variation.” Econometrica 47, no. 5 (1979): 1287–94. https://doi.org/10.2307/1911963.
 [^durbinwatson1971]: Durbin, J., and G. S. Watson. “Testing for Serial Correlation in Least Squares Regression. III.” Biometrika 58, no. 1 (1971): 1–19. https://doi.org/10.2307/2334313.
+[^sujarweni2016]: Sujarweni, V. Wiratna. "Kupas tuntas penelitian akuntansi dengan SPSS." Yogyakarta : Pustaka Baru Press, 2016. ISBN: 602-376--041-4
+[^islr]: James, Gareth; Witten, Daniela; Hastie, Trevor; Tibshirani, Robert (2017). An Introduction to Statistical Learning: with Applications in R. Springer Science+Business Media, New York. p 102. ISBN 978-1-4614-7138-7. DOI:10.1007/978-1-4614-7138-7
