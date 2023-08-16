@@ -42,19 +42,84 @@ Dapat disimpulkan bahwa sampel berasal dari populasi yang berdistribusi normal.
 
 ## Uji Homoskedastisitas
 
+Pada uji homokedastisitas terdapat beberapa metode dimana pada kali ini digunakan metode [Breush-Pagan yang telah dijelaskan sebelumnya](#BreushPagan).
+
+### Kode R
+
+Untuk menguji dengan metode Breush-Pagan digunakan fungsi `bptest` dari paket `lmtest`.
+
 ```{r analisis_homoskedastisitas}
-lmtest::bptest(reg)
+lmtest::bptest(reg, studentize = FALSE)
 ```
 
+### Hipotesis
+
+Dari hasil pengujian dapat disimpulkan beberapa hal :
+
+- $H_0$ : diterima bila variansi residu bersifat homoskedastis;
+- $H_1$ : bila variansi residu bersifat heterokesdastis;
+- $\alpha = 0.05$; dan
+- Statistik Uji: $BP = 4.8994, p-value = 0.08632$.
+
+### Keputusan
+
+Karena $p-value (0.08632) > \alpha (0.05)$, maka $H_0$ ditolak.
+
+### Interpretasi
+
+Dari hasil uji dapat disimpulkan bahwa tidak terbukti adanya pelanggaran asumsi homogenitas ragam galat dalam model data.
+
 ## Uji Autokorelasi
+
+Pada uji autokorelasi terdapat beberapa metode dimana pada kali ini digunakan metode [Durbin-Watson yang telah dijelaskan sebelumnya](#DurbinWatson).
+
+### Kode R
+
+Untuk menguji dengan metode Breush-Pagan digunakan fungsi `dwtest` dari paket `lmtest`.
 
 ```{r analisis_autokorelasi}
 lmtest::dwtest(reg)
 ```
 
+### Hipotesis
+
+Dari tabel _Durbin-Watson Statistic: 5 Per Cent Significance Points of dL and dU_ diperoleh
+
+- $\alpha = 0.05$;
+- $n = 32$;
+- $k = 2$ (cyl + disp);
+- $d_L = 1.309$; dan
+- $d_U = 1.574$.
+
+Namun dapat juga dengan melihat dari nilai $p-value = 0.09521$ terhadap $\alpha = 0.05$.
+
+### Keputusan
+
+Karena $1.309 <= DW <= 1.574$, maka pengujian tidak menyakinkan. Namun bila melihat $p-value (0.09521) > \alpha (0.05)$, maka $H_0$ diterima.
+
+### Interpretasi
+
+Dalam percobaan pengujian ini memang belum menggunakan semua variabel, maka dimungkinkan adanya variabel independen lain yang mungkin bisa lebih baik menjelaskan variabel dependen. Namun  bila dilihat dari $p-value$ maka tidak terdapat masalah autokorelasi dalam model data.
+
 ## Uji Multikolinearitas
+
+Uji multikolinearitas dapat dilakukan mengingat variabel independen yang digunakan lebih dari 1. 
+
+### Kode R
+
+Untuk menguji dengan VIF digunakan fungsi `vif` dari paket `car`.
 
 ```{r analisis_multikolinearitas}
 car::vif(reg)
 ```
+
+### Hipotesis
+
+Ma
+
+### Keputusan
+
+
+
+### Interpretasi
 

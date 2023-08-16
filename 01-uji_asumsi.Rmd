@@ -12,7 +12,7 @@ Terdapat beberapa metode pengujian yang biasa dirujuk, yaitu : Shapiro-Wilk[^sha
 
 Pada rilis saat ini hanya akan dijelaskan mengenai uji Saphiro-Wilk. Rumus:  
 
-\begin{equation}\label{shapirowilk}
+\begin{equation}
 T_3 = \frac{1}{D} [ \sum_{i=1}^k a_i (X_n+i+1 - X_i) ]^2
 \end{equation}
 
@@ -23,7 +23,7 @@ Keterangan:
 - $X_n-i+1$ = Angka ke $n-i+1$ pada data
 - $X_i$ = Angka ke i pada data
 
-\begin{equation}\label{shapirowilk_d}
+\begin{equation}
 D=\sum_{i=1}^n{(X_i-\overline{X})^2}
 \end{equation}
 
@@ -32,7 +32,7 @@ Keterangan:
 - $X_i$ = angka ke i pada data
 - $\overline{X}$ = rata-rata X
 
-\begin{equation}\label{shapirowilk_d}
+\begin{equation}
 G=b_n+c_n+ln({T_3-d_n}/{1-T_3})
 \end{equation}
 
@@ -64,7 +64,7 @@ Misal pada model $y = \beta_0 + \beta_1 x + \upsilon$ didapatkan satu set nilai 
 
 Statistik uji yang digunakan adalah
 
-\begin{equation}\label{breuschpagan}
+\begin{equation}
 F = \frac{R^2_{{\upsilon^2}/k}}{1 - R^2_{{\upsilon^2}/{n-k-1}}} \sim F_{a,(k, n-k-1)}
 \end{equation}
 
@@ -80,11 +80,11 @@ Hipotesis yang berlaku dalam pengujian adalah dimana nilai statistik uji $F$ > $
 
 Uji autokorelasi dilakukan untuk mendeteksi adanya korelasi atau hubungan antara residual pengamatan yang satu dengan lainnya. Autokorelasi biasa terjadi pada data yang berurutan atau time series. Pada regresi apabula terjadi autokorelasi, maka dapat menggangu suatu model. Autokorelasi mengakibatkan penaksiran OLS tidak lagi memiliki varians yang minimum, meskipun koefisien taksiran regresi tetap tak bias.
 
-### Uji Durbin-Watson[^durbinwatson1971]
+### Uji Durbin-Watson {#DurbinWatson}
 
 Rumus dalam pengujian adalah
 
-\begin{equation}\label{durbinwatson}
+\begin{equation}
 d = \frac{\sum^n_{t=2} (e_t - e_{t-1})^2}{\sum^n_{t=1} e^2_t}
 \end{equation}
 
@@ -93,16 +93,15 @@ Hipotesis yang berlaku dalam pengujian adalah dimana nilai statistik uji $d_L > 
 - jika $0 < d < d_L$, berarti ada autokorelasi positif;
 - jika $4 – d_L < d < 4$, berarti ada autokorelasi negatif;
 - jika $2 < d < 4 - d_U$ atau $d_U < d < 2$, berarti tidak ada autokorelasi positif atau negatif; dan
-- jika $dL <= d <= dU$ atau $4 - d_U ≤ d ≤ 4 - d_L$, pengujian tidak menyakinkan. Untuk itu dapat digunakan uji lain
-atau menambah data.
+- jika $dL <= d <= dU$ atau $4 - d_U ≤ d ≤ 4 - d_L$, pengujian tidak menyakinkan. Untuk itu dapat digunakan uji lain atau menambah data.
 
 ## Uji Multikolinearitas
 
-Uji Multikolinearitas (VIF / _Variance Inflation Factors_) dilakukan untuk mendeteksi apakah terdapat korelasi yang sangat tinggi antara variabel independen. Ada beberapa tanda suatu regresi linear berganda memiliki masalah dengan multikolinearitas, yaitu nilai R Square tinggi, tetapi hanya ada sedikit variabel independen yang signifikan atau bahkan tidak signifikan.
+Uji Multikolinearitas dilakukan untuk mendeteksi apakah terdapat korelasi yang sangat tinggi antara variabel independen. Ada beberapa tanda suatu regresi linear berganda memiliki masalah dengan multikolinearitas, yaitu nilai R Square tinggi, tetapi hanya ada sedikit variabel independen yang signifikan atau bahkan tidak signifikan. Pada uji ini yang biasa dilakukan adalah dengan mencari nilai faktor inflasi varians (VIF / _Variance Inflation Factors_).
 
 Rumus[^islr] yang digunakan adalah:
 
-\begin{equation}\label{durbinwatson}
+\begin{equation}
 VIF(\hat{\beta}_j) = \frac{1}{1-R^2_{X_j|X_{-j}}}
 \end{equation}
 
