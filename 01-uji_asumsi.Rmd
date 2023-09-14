@@ -107,7 +107,14 @@ VIF(\hat{\beta}_j) = \frac{1}{1-R^2_{X_j|X_{-j}}}
 
 dimana $R^2_{X_j|X_{-j}}$ adalah $R^2$ dari regresi variabel $X_j$.
 
-Hipotesis yang berlaku pada pengujian adalah jika $R^2_{X_j|X_{-j}}$ mendekati 1 (satu) maka terdapat korelasi yang kuat atas variabel $X_j$. Semakin kuat korelasi maka angka VIF atas variabel $X_j$ juga semakin besar.
+Hipotesis yang berlaku pada pengujian adalah jika $R^2_{X_j|X_{-j}}$ mendekati 1 (satu) maka terdapat korelasi yang kuat atas variabel $X_j$. Semakin kuat korelasi maka angka VIF atas variabel $X_j$ juga semakin besar. Dengan semakin mendekati 1 maka nilai VIF akan semakin besar.
+
+Beberapa catatang mengenai VIF :
+
+- $VIF$ dimulai dari 1 s.d tak hingga;
+- $VIF = 1$ menunjukkan tidak ada multikolinearitas antara variabel $x_i$ dengan variabel $x$ lainnya;
+- $5 < VIF < 10$ menunjukkan adanya multikolinearitas yang cukup tinggi antara variabel $x_i$ dengan variabel $x$ lainnya; dan
+- $VIF > 10$ menunjukkan adanya multikolinearitas yang tinggi antara variabel $x_i$ dengan variabel $x$ lainnya.
 
 Bila terdapat masalah kolinearitas solusi sederhananya adalah dengan menghapus varibel yang bermasalah atau dengan menggabungkan variabel yang saling berkorelasi kuat menjadi 1 (satu) variabel.
 

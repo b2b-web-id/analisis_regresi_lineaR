@@ -113,13 +113,16 @@ Untuk menguji dengan VIF digunakan fungsi `vif` dari paket `car`.
 car::vif(reg)
 ```
 
+Karena variabel independen yang digunakan hanya 2 (dua) maka nilai masing-masing adalah sama.
+
 ### Hipotesis
 
-Ma
+Hipotesis yang berlaku pada pengujian adalah nilai $VIF$ diantara 5 dan 10 sehingga dalam cakupan nilai multikolinearitasnya cukup tinggi.
 
 ### Keputusan
 
-
+Karena nilai multikolinearitas dalam batasan cukup tinggi maka variabel keduanya masih dapat dilakukan namun dapat juga digabungkan.
 
 ### Interpretasi
 
+Dalam percobaan pengujian ini memang belum menggunakan semua variabel, maka dimungkinkan adanya variabel independen lain yang tidak memiliki nilai multikolinearitas yang tinggi karena bila dilihat dari nilai $VIF$ kedua variabel cukup tinggi.
