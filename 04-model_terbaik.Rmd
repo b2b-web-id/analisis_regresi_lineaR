@@ -9,20 +9,54 @@ reg <- lm(mpg ~ disp+hp+drat+wt+qsec+am+gear, data=mtcars)
 summary(reg)
 ```
 
+Pada kali ini digunakan pustaka __olsrr__[^olsrr].
+
+```{r lib_olsrr}
+library(olsrr)
+```
+
 ## Metode All Possible Regression
 
-```{r bestmodel_allpossible}
-olsrr::ols_step_all_possible(reg)
+Metode ini menguji semua kemungkinan subset dari semua variabel independen potensial. Pengujian ini menghasilkan kandidat sejumlah $2^k-1$ pilihan, dimana $k$ adalah jumlah variabel independen. Jadi untuk model diatas akan terdapat $2^7-1 = 128 - 1 = 127$ kandidat.
+
+```{r model_allpossible}
+ols_step_all_possible(reg)
 ```
 
-## Metode Forward Selection
+## Metode Stepwise Forward Selection
 
-```{r bestmodel_forward}
-olsrr::ols_step_forward_p(reg)
+Metode ini menguji semua kemungkinan dari sekumpulan calon variabel independen dengan memasukkannya berdasarkan $p-value$ secara bertahap hingga tidak ada lagi yang dapat dimasukkan.
+
+```{r model_forward}
+ols_step_forward_p(reg)
 ```
 
-## Metode Backward Selection
+## Metode Stepwise Backward Selection
 
-```{r bestmodel_backward}
-olsrr::ols_step_backward_p(reg)
+Metode ini menguji semua kemungkinan dari sekumpulan calon variabel independen dengan menghilangkannya berdasarkan $p-value$ secara bertahap hingga tidak ada lagi yang dapat dihilangkan.
+
+```{r model_backward}
+ols_step_backward_p(reg)
 ```
+
+## Metode Stepwise Regression
+
+Metode ini menguji semua kemungkinan dari sekumpulan calon variabel independen dengan memasukkan dan/atau menghilangkannya berdasarkan $p-value$ secara bertahap hingga tidak ada lagi yang dapat ditambahkan atau dihilangkan.
+
+```{r model_regresion}
+ols_step_both_p(reg)
+```
+
+## Metode Best Subset Regression
+
+Metode ini memilih kemungkinan sekumpulan calon variabel independen yang paling baik berdasarkan kriteria objektif yang telah ditentukan dengan baik, misalnya memiliki nilai $R^2$ terbesar atau $MSE$ terkecil, $C(p)$ atau $AIC$.
+
+```{r model_best_subset}
+ols_step_best_subset(reg)
+```
+
+## Catatan
+
+Masih ada beberapa metode lain yang dapat dilakukan selain metode di atas, bila di atas terdapat metode bertahap / _stepwise_ berdasarkan $p-value$ ada juga metode berdasarkan nilai $AIC$.
+
+[^olsrr]: https://olsrr.rsquaredacademy.com

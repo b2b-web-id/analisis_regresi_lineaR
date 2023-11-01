@@ -4,3 +4,23 @@
 reg1 <- lm(mpg ~ wt+hp+am+qsec+disp+cyl, data=mtcars)
 summary(reg1)
 ```
+
+Pada bab sebelumnya kita telah mendapatkan pandangan mengenai metode pemilihan model yang terbaik. Pada bab ini kita coba akan membuat model terbaik dengan mempelajari terlebih dulu bagaimana kriteria objektif pemilihannya. Pada rilis ini akan coba dijelaskan sekilas mengenai $R^2$, $MSE$, $C(p)$ dan $AIC$.
+
+## Kriteria Objektif
+
+### Koefisien determinasi (_R-squared_/$R^2$)
+
+$R^2$ adalah
+
+### Mean Squared Error
+
+$MSE$ adalah
+
+### C(p)
+
+$C(p)$
+
+### AIC
+
+$AIC$ ()

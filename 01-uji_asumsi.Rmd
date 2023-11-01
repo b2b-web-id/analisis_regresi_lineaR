@@ -78,7 +78,7 @@ Hipotesis yang berlaku dalam pengujian adalah dimana nilai statistik uji $F$ > $
 
 ## Uji autokorelasi
 
-Uji autokorelasi dilakukan untuk mendeteksi adanya korelasi atau hubungan antara residual pengamatan yang satu dengan lainnya. Autokorelasi biasa terjadi pada data yang berurutan atau time series. Pada regresi apabula terjadi autokorelasi, maka dapat menggangu suatu model. Autokorelasi mengakibatkan penaksiran OLS tidak lagi memiliki varians yang minimum, meskipun koefisien taksiran regresi tetap tak bias.
+Uji autokorelasi dilakukan untuk mendeteksi adanya korelasi atau hubungan antara residual pengamatan yang satu dengan lainnya. Autokorelasi biasa terjadi pada data yang berurutan atau time series. Pada regresi apabila terjadi autokorelasi, maka dapat menggangu suatu model. Autokorelasi mengakibatkan penaksiran OLS tidak lagi memiliki varians yang minimum, meskipun koefisien taksiran regresi tetap tak bias. Salah satu uji yang dilakukan adalah Uji Durbin-Watson[^durbinwatson1971].
 
 ### Uji Durbin-Watson {#DurbinWatson}
 
