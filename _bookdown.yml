@@ -16,8 +16,8 @@ language:
     proof: 'Proof. '
     remark: 'Remark. '
     solution: 'Solution. '
+    chapter_name: "Bab "
   ui:
     edit: Edit
-    chapter_name: 'Bab '
+    chapter_name: "Bab "
     appendix_name: ''
-  
